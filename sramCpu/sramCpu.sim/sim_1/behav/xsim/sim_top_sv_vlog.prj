@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib "D:/Desktop/sramCpu/sramCpu.srcs/sources_1/imports/cpuSramTb/interface.sv" --include "../../../../sramCpu.srcs/sources_1/imports/cpuSramTb" \
+"../../../../sramCpu.srcs/sources_1/imports/cpuSramTb/CpuNoIsa.sv" \
+"../../../../sramCpu.srcs/sources_1/imports/cpuSramTb/decoder.sv" \
+"../../../../sramCpu.srcs/sources_1/new/monitor.sv" \
+"../../../../sramCpu.srcs/sources_1/imports/cpuSramTb/prf.sv" \
+"../../../../sramCpu.srcs/sim_1/new/sim_top_sv.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

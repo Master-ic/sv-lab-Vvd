@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../sramTb.srcs/sources_1/imports/SYSTEM_VERILOG/dut.sv" \
+"../../../../sramTb.srcs/sources_1/imports/SYSTEM_VERILOG/interface.sv" \
+"../../../../sramTb.srcs/sources_1/imports/SYSTEM_VERILOG/monitor.sv" \
+"../../../../sramTb.srcs/sources_1/imports/SYSTEM_VERILOG/reference.sv" \
+"../../../../sramTb.srcs/sources_1/imports/SYSTEM_VERILOG/tb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

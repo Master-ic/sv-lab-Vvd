@@ -1,0 +1,22 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Transaction put by producer: len =         190, load =          24
+Transaction received by consumer: len =         190, load =          24
+Transaction put by producer: len =          97, load =         163
+Transaction received by consumer: len =          97, load =         163
+Transaction put by producer: len =         135, load =         105
+Transaction received by consumer: len =         135, load =         105
+Transaction put by producer: len =         132, load =          63
+Transaction received by consumer: len =         132, load =          63
+Transaction put by producer: len =         104, load =         180
+Transaction received by consumer: len =         104, load =         180
+Transaction put by producer: len =         169, load =         128
+Transaction received by consumer: len =         169, load =         128
+Transaction put by producer: len =         162, load =         168
+Transaction received by consumer: len =         162, load =         168
+Transaction put by producer: len =          74, load =         177
+Transaction received by consumer: len =          74, load =         177
+Transaction put by producer: len =          53, load =         131
+Transaction received by consumer: len =          53, load =         131
+Transaction put by producer: len =         147, load =         199
+Transaction received by consumer: len =         147, load =         199
